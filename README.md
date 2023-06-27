@@ -27,13 +27,46 @@ A service which helps creators to help upload videos.
 Brain storming about the video streaming service.
 1. What is a Video ?
   It contains information about the video such as
-  Title | Description | Genre | Type | Duration | Format | Creator | Created DateTime
-2. What is a User ?
+```JSON
+{
+  "title"       : "First Video",
+  "description" : "Hey Guys, I am at the zoo, In this video we are going to show..",
+  "genre"       : "ShortVideo",
+  "type"        : "Recorded",
+  "duration"    : "5:28",
+  "format"      : "ovi",
+  "creator"     : "123..",
+  "createdDate" : 1687885303419
+}
+```
+3. What is a User ?
    A user which contains information specific to users
-   userkey | first name | last name | date of birth | email | password | phone | country | roles
-3. What is an Account ?
+   ```JSON
+   {
+     "firstName"   : "John",
+     "lastName"    : "Doe",
+     "userKey"     : "123..",
+     "dateOfBirth" : 1687885303419,
+     "email"       : "johndoe@example.com",
+     "password"    : "****",
+     "phone"       : "+91234..",
+     "country"     : "IN",
+     "roles"       : [ "ROLE_ADMIN", "ROLE_CONSUMER", "ROLE_CONTENT_CREATOR" ]
+   }
+   ```
+4. What is an Account ?
    An account which holds account specific information
-   account key | created date | name | email | country | users
+```JSON
+  {
+    "accountKey"  : "123..",
+    "createdDate" : 1687885303419,
+    "name"        : "Uber",
+    "email"       : "johndoe@example.com",
+    "country"     : "IN"
+    "users"       : [ "1234", "5678" ]
+  }
+  ```
+users hold userkeys
 
 
 
