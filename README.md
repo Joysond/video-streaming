@@ -40,32 +40,32 @@ Brain storming about the video streaming service.
 }
 ```
 2. What is a User ?
-   A user which contains information specific to users
-   ```JSON
-   {
-     "firstName"   : "John",
-     "lastName"    : "Doe",
-     "userKey"     : "123..",
-     "dateOfBirth" : 1687885303419,
-     "email"       : "johndoe@example.com",
-     "password"    : "****",
-     "phone"       : "+91234..",
-     "country"     : "IN",
-     "roles"       : [ "ROLE_ADMIN", "ROLE_CONSUMER", "ROLE_CONTENT_CREATOR" ]
-   }
-   ```
+ A user which contains information specific to users
+ ```JSON
+ {
+   "firstName"   : "John",
+   "lastName"    : "Doe",
+   "userKey"     : "123..",
+   "dateOfBirth" : 1687885303419,
+   "email"       : "johndoe@example.com",
+   "password"    : "****",
+   "phone"       : "+91234..",
+   "country"     : "IN",
+   "roles"       : [ "ROLE_ADMIN", "ROLE_CONSUMER", "ROLE_CONTENT_CREATOR" ]
+ }
+ ```
 3. What is an Account ?
-   An account which holds account specific information
+An account which holds account specific information
 ```JSON
-  {
-    "accountKey"  : "123..",
-    "createdDate" : 1687885303419,
-    "name"        : "Uber",
-    "email"       : "johndoe@example.com",
-    "country"     : "IN"
-    "users"       : [ "1234", "5678" ]
-  }
-  ```
+{
+  "accountKey"  : "123..",
+  "createdDate" : 1687885303419,
+  "name"        : "Uber",
+  "email"       : "johndoe@example.com",
+  "country"     : "IN"
+  "users"       : [ "1234", "5678" ]
+}
+```
 users hold userkeys
 
 
