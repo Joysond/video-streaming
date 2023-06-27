@@ -39,7 +39,7 @@ Brain storming about the video streaming service.
   "createdDate" : 1687885303419
 }
 ```
-3. What is a User ?
+2. What is a User ?
    A user which contains information specific to users
    ```JSON
    {
@@ -54,7 +54,7 @@ Brain storming about the video streaming service.
      "roles"       : [ "ROLE_ADMIN", "ROLE_CONSUMER", "ROLE_CONTENT_CREATOR" ]
    }
    ```
-4. What is an Account ?
+3. What is an Account ?
    An account which holds account specific information
 ```JSON
   {
